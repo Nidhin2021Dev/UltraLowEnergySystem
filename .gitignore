@@ -1,4 +1,7 @@
-logs/
-main.log
-*.log
-bin/
+TM4C123GH6PM_CM4/keil/Objects/
+
+TM4C123GH6PM_CM4/keil/logs/
+
+TM4C123GH6PM_CM4/keil/Listings/
+
+TM4C123GH6PM_CM4/keil/RTE/
