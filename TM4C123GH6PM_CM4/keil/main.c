@@ -1,11 +1,13 @@
 #include <stdint.h>
 #include <FreeRTOS.h>
 #include <task.h>
-
-/* Declare a variable that will be incremented by the hook function. */
+#include "bsp.h"
+/* Declare a variable that will be incremented by the hook function....*/
 volatile uint32_t ulIdleCycleCount = 0UL;
-
 void vPeriodicTask(void *pvParameters);
+
+
+
 
 int main()
 {
@@ -19,6 +21,9 @@ int main()
 	for (;;);
 	
 }
+
+
+
 
 void vPeriodicTask(void *pvParameters)
 {
