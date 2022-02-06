@@ -14,5 +14,10 @@
 
 #define toggleBit(reg,bit) (reg ^= bit)
 void init_gpio(void);
+void Delay(unsigned long counter);
 
+void init_UART0();
+char readChar(void);
+void printChar(char c);
+void printString(char *str);
 #endif
